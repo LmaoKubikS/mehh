@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Server Logo</title>
+    <style>
+        body {
+            /* Background color, can be changed to black or transparent */
+            background-color: #000; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .logo {
+            /* Adjust width as needed */
+            width: 300px; 
+            /* Key: apply rotation animation */
+            animation: spin 4s linear infinite;
+        }
+
+        /* Define rotation keyframes */
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Change src to your image filename -->
+    <img src="your-logo.png" class="logo" alt="Logo">
+
+</body>
+</html>
